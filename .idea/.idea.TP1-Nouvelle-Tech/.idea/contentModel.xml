@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Kevin\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_TP1-Nouvelle-Tech.-1843059221.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Kevin\Documents\Unity Projects\TP1-Nouvelle-Tech" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Builder" t="Include">
+            <e p="CharacterBuildDirector.cs" t="Include" />
+            <e p="CharacterBuilder.cs" t="Include" />
+            <e p="WarriorBuilder.cs" t="Include" />
+          </e>
+          <e p="Character" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="Classes.cs" t="Include" />
+            <e p="Races.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="TP1-Nouvelle-Tech.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
