@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿public enum Races   {
 
-public enum Races   {
-
+	None,
 	Human,
 	Gnome,
 	Elf,
