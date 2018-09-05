@@ -13,6 +13,9 @@
           <e p="Builder" t="Include">
             <e p="CharacterBuildDirector.cs" t="Include" />
             <e p="CharacterBuilder.cs" t="Include" />
+            <e p="HunterBuilder.cs" t="Include" />
+            <e p="MageBuilder.cs" t="Include" />
+            <e p="RogueBuilder.cs" t="Include" />
             <e p="WarriorBuilder.cs" t="Include" />
           </e>
           <e p="Character" t="Include">
@@ -21,6 +24,12 @@
             <e p="Races.cs" t="Include" />
           </e>
           <e p="CharacterInfo.cs" t="Include" />
+          <e p="Gear" t="Include">
+            <e p="Armor.cs" t="Include" />
+            <e p="ArmorType.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+            <e p="WeaponType.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

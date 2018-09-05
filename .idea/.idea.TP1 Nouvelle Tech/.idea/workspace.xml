@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6008d2a3-2518-4517-8d83-47d861e2d21b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TP1 Nouvelle Tech/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Classes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Classes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Races.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Races.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gear.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +16,19 @@
     <session id="-1758601667">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1420" />
+          <entry key="cs" value="1607" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1420" />
+          <entry key="C#" value="1607" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,16 +48,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1536161641347" expanded="true" signature="6:114" ph="..." />
-                <marker date="1536161641347" expanded="true" signature="158:1040" ph="{...}" />
-                <marker date="1536161641347" expanded="true" signature="491:517" ph="{...}" />
-                <marker date="1536161641347" expanded="true" signature="545:643" ph="{...}" />
-                <marker date="1536161641347" expanded="true" signature="669:762" ph="{...}" />
-                <marker date="1536161641347" expanded="true" signature="786:863" ph="{...}" />
-                <marker date="1536161641347" expanded="true" signature="899:1038" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="6:114" ph="..." />
+                <marker date="1536162621225" expanded="true" signature="158:1040" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="491:517" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="545:643" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="669:762" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="786:863" ph="{...}" />
+                <marker date="1536162621225" expanded="true" signature="899:1038" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -209,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536156876548</updated>
-      <workItem from="1536156881651" duration="4721000" />
+      <workItem from="1536156881651" duration="6661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4721000" />
+    <option name="totallyTimeSpent" value="6661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +219,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
@@ -306,16 +297,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="200">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1536161641347" expanded="true" signature="6:114" ph="..." />
-            <marker date="1536161641347" expanded="true" signature="158:1040" ph="{...}" />
-            <marker date="1536161641347" expanded="true" signature="491:517" ph="{...}" />
-            <marker date="1536161641347" expanded="true" signature="545:643" ph="{...}" />
-            <marker date="1536161641347" expanded="true" signature="669:762" ph="{...}" />
-            <marker date="1536161641347" expanded="true" signature="786:863" ph="{...}" />
-            <marker date="1536161641347" expanded="true" signature="899:1038" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="6:114" ph="..." />
+            <marker date="1536162621225" expanded="true" signature="158:1040" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="491:517" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="545:643" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="669:762" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="786:863" ph="{...}" />
+            <marker date="1536162621225" expanded="true" signature="899:1038" ph="{...}" />
           </folding>
         </state>
       </provider>
