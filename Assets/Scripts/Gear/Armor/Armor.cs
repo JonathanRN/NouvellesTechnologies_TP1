@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Armor
 {
-    public string WeaponName { get; set; }
+    public string Name { get; set; }
     public ArmorType ArmorType { get; set; }
     public float ArmorValue { get; set; }
     public float Durability { get; set; }
 
-    public Armor(string weaponName, ArmorType armorType, float armorValue, float durability)
+    public Armor(string name, ArmorType armorType, float armorValue, float durability)
     {
-        WeaponName = weaponName;
+        Name = name;
         ArmorType = armorType;
         ArmorValue = armorValue;
         Durability = durability;

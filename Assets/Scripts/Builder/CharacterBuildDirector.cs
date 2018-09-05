@@ -5,14 +5,18 @@ using UnityEngine;
 public class CharacterBuildDirector  {
 
 	private CharacterBuilder builder;
+	private CharacterInfo characterInfo;
 
-	public CharacterBuildDirector(CharacterBuilder builder) {
-		this.builder = builder;
+	public CharacterBuildDirector(CharacterInfo characterInfo)
+	{
+		this.characterInfo = characterInfo;
 	}
 
-	public Character construct() {
-		return builder.SetName("NanNNiiii")
-					  .SetRace(Races.Human)
+	public Character construct()
+	{
+		builder = characterInfo.GetClassBuilder();
+		return builder.SetName(characterInfo.GetName())
+					  .SetRace(characterInfo.GetRace())
 					  .Build();
 	}
 

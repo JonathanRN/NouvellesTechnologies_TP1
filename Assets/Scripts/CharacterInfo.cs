@@ -13,6 +13,7 @@ public class CharacterInfo : MonoBehaviour
 
 	private string characterClassValue;
 	private string characterRaceValue;
+	private CharacterBuildDirector characterBuildDirector;
 	
 	private Classes characterClass;
 	private Races characterRace;
@@ -35,13 +36,34 @@ public class CharacterInfo : MonoBehaviour
 	private void Awake()
 	{
 		buildButton.onClick.AddListener(delegate { OnButtonBuildClick(); });
+		characterBuildDirector = new CharacterBuildDirector(this);
 	}
 
 	private void OnButtonBuildClick()
 	{
-		Debug.Log("Button build clicked!");
-		Debug.Log(GetName());
-		Debug.Log(GetClass().ToString());
-		Debug.Log(GetRace().ToString());
+		characterBuildDirector.construct();
+	}
+	
+	public CharacterBuilder GetClassBuilder()
+	{
+		var currentClass = GetClass();
+
+		switch (currentClass)
+		{
+			case Classes.Mage:
+				return new MageBuilder();
+			case Classes.Hunter:
+				return new HunterBuilder();
+			case Classes.Warrior:
+				return new WarriorBuilder();
+			case Classes.Rogue:
+				return new RogueBuilder();
+			case Classes.None:
+				break;
+			default:
+				throw new ArgumentOutOfRangeException();
+		}
+
+		return null;
 	}
 }
