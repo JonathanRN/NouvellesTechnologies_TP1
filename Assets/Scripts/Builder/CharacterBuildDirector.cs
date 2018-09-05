@@ -12,7 +12,8 @@ public class CharacterBuildDirector  {
 
 	public Character construct() {
 		return builder.SetName("NanNNiiii")
-			.Build();
+					  .SetRace(Races.Human)
+					  .Build();
 	}
 
 }

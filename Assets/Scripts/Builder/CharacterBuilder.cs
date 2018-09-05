@@ -9,4 +9,6 @@ public abstract class CharacterBuilder
 
    public abstract CharacterBuilder SetName(string name);
 
+   public abstract CharacterBuilder SetRace(Races race);
+
 }
