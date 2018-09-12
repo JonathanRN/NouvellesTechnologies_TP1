@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class WarriorBuilder : CharacterBuilder
 {
-
+    private GameObject characterObject;
+    
     private Character character;
     
     public WarriorBuilder()
