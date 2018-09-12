@@ -17,6 +17,8 @@ public class CharacterInfo : MonoBehaviour
 	
 	private Classes characterClass;
 	private Races characterRace;
+	
+	public Character Character { get; set; }
 
 	private void Awake()
 	{
@@ -41,7 +43,7 @@ public class CharacterInfo : MonoBehaviour
 
 	private void OnButtonBuildClick()
 	{
-		characterBuildDirector.construct();
+		Character = characterBuildDirector.construct();
 	}
 	
 	public CharacterBuilder GetClassBuilder()
