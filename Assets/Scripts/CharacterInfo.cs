@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public delegate void OnBuildEventHandler();
+
 public class CharacterInfo : MonoBehaviour
 {
 	[SerializeField] private Text name;
@@ -17,6 +19,8 @@ public class CharacterInfo : MonoBehaviour
 	
 	private Classes characterClass;
 	private Races characterRace;
+
+	public event OnBuildEventHandler OnBuild;
 	
 	public Character Character { get; set; }
 
@@ -44,6 +48,7 @@ public class CharacterInfo : MonoBehaviour
 	private void OnButtonBuildClick()
 	{
 		Character = characterBuildDirector.construct();
+		NotifyBuild();
 	}
 	
 	public CharacterBuilder GetClassBuilder()
@@ -67,5 +72,13 @@ public class CharacterInfo : MonoBehaviour
 		}
 
 		return null;
+	}
+
+	private void NotifyBuild()
+	{
+		if (OnBuild != null)
+		{
+			OnBuild();
+		}
 	}
 }
