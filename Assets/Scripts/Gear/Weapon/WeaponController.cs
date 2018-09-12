@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
+	[SerializeField] private string spritesPath = "Sprites/" ;
+	
 	private Weapon weapon;
 	private SpriteRenderer weaponRenderer;
 	private Sprite weaponSprite;
@@ -13,12 +15,24 @@ public class WeaponController : MonoBehaviour
 	void Awake ()
 	{
 		weaponRenderer = transform.parent.GetComponentInChildren<SpriteRenderer>();
-		weaponSprite = Resources.Load<Sprite>("Sprites/axe");
+		characterInfo = GameObject.FindWithTag("GameController").GetComponent<CharacterInfo>();
+	}
+
+	private void OnEnable()
+	{
+		characterInfo.OnBuild += OnBuild;
+	}
+
+	private void OnDisable()
+	{
+		characterInfo.OnBuild -= OnBuild;
+	}
+
+	private void OnBuild()
+	{
+		weapon = characterInfo.Character.Weapon;
+		weaponSprite = Resources.Load<Sprite>(spritesPath + characterInfo.Character.Weapon.WeaponType);
 		weaponRenderer.sprite = weaponSprite;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

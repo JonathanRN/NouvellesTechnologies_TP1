@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class ArmorController : MonoBehaviour
 {
+	[SerializeField] private string spritesPath = "Sprites/" ;
+	
 	private Armor armor;
 	private SpriteRenderer armorRenderer;
 	private Sprite armorSprite;
+	private CharacterInfo characterInfo;
 	
 	// Use this for initialization
 	void Awake ()
 	{
 		armorRenderer = transform.parent.GetComponentInChildren<SpriteRenderer>();
-		armorSprite = Resources.Load<Sprite>("Sprites/fullplateArmor");
-		armorRenderer.sprite = armorSprite;
+		characterInfo = GameObject.FindWithTag("GameController").GetComponent<CharacterInfo>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	private void OnEnable()
+	{
+		characterInfo.OnBuild += OnBuild;
+	}
+
+	private void OnDisable()
+	{
+		characterInfo.OnBuild -= OnBuild;
+	}
+
+	private void OnBuild()
+	{
+		armor = characterInfo.Character.Armor;
+		armorSprite = Resources.Load<Sprite>(spritesPath + characterInfo.Character.Armor.ArmorType);
+		armorRenderer.sprite = armorSprite;
 	}
 }
