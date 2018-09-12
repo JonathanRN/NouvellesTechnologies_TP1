@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443ca101-f297-4294-bd35-8743b02d8bc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TP1-Nouvelle-Tech/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TP1-Nouvelle-Tech/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/fullplateArmor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/fullplateArmor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gear/Armor/ArmorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gear/Armor/ArmorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gear/Weapon/WeaponController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gear/Weapon/WeaponController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="443ca101-f297-4294-bd35-8743b02d8bc0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeaponController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeaponController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gear/Weapon/WeaponController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <marker date="1536768058978" expanded="false" signature="6:78" ph="..." />
                 <marker date="1536768058978" expanded="true" signature="125:896" ph="{...}" />
@@ -98,6 +90,23 @@
                 <marker date="1536768058978" expanded="true" signature="570:612" ph="{...}" />
                 <marker date="1536768058978" expanded="true" signature="639:681" ph="{...}" />
                 <marker date="1536768058978" expanded="true" signature="706:893" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MageBuilder.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/MageBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <marker date="1536161363149" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536161363149" expanded="true" signature="124:671" ph="{...}" />
+                <marker date="1536161363149" expanded="true" signature="183:220" ph="{...}" />
+                <marker date="1536161363149" expanded="true" signature="256:466" ph="{...}" />
+                <marker date="1536161363149" expanded="true" signature="522:568" ph="{...}" />
+                <marker date="1536161363149" expanded="true" signature="623:669" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,7 +182,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
@@ -206,6 +215,12 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="TP1-Nouvelle-Tech" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TP1-Nouvelle-Tech" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -267,12 +282,12 @@
       <updated>1535554583817</updated>
       <workItem from="1535554592656" duration="3341000" />
       <workItem from="1536156792344" duration="9093000" />
-      <workItem from="1536761615631" duration="6079000" />
+      <workItem from="1536761615631" duration="7321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18513000" />
+    <option name="totallyTimeSpent" value="19755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,21 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/MageBuilder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <marker date="1536161363149" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536161363149" expanded="true" signature="124:671" ph="{...}" />
-            <marker date="1536161363149" expanded="true" signature="183:220" ph="{...}" />
-            <marker date="1536161363149" expanded="true" signature="256:466" ph="{...}" />
-            <marker date="1536161363149" expanded="true" signature="522:568" ph="{...}" />
-            <marker date="1536161363149" expanded="true" signature="623:669" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/CharacterBuildDirector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -632,21 +632,6 @@
             <marker date="1536163186191" expanded="true" signature="117:490" ph="{...}" />
             <marker date="1536163186191" expanded="true" signature="253:297" ph="{...}" />
             <marker date="1536163186191" expanded="true" signature="328:487" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/WarriorBuilder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <marker date="1536161363129" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536161363129" expanded="true" signature="126:765" ph="{...}" />
-            <marker date="1536161363129" expanded="true" signature="195:244" ph="{...}" />
-            <marker date="1536161363129" expanded="true" signature="283:518" ph="{...}" />
-            <marker date="1536161363129" expanded="true" signature="577:641" ph="{...}" />
-            <marker date="1536161363129" expanded="true" signature="699:763" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -720,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gear/Weapon/WeaponController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <marker date="1536768058978" expanded="false" signature="6:78" ph="..." />
             <marker date="1536768058978" expanded="true" signature="125:896" ph="{...}" />
@@ -729,6 +714,36 @@
             <marker date="1536768058978" expanded="true" signature="570:612" ph="{...}" />
             <marker date="1536768058978" expanded="true" signature="639:681" ph="{...}" />
             <marker date="1536768058978" expanded="true" signature="706:893" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/WarriorBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <marker date="1536161363129" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536161363129" expanded="true" signature="126:765" ph="{...}" />
+            <marker date="1536161363129" expanded="true" signature="195:244" ph="{...}" />
+            <marker date="1536161363129" expanded="true" signature="283:518" ph="{...}" />
+            <marker date="1536161363129" expanded="true" signature="577:641" ph="{...}" />
+            <marker date="1536161363129" expanded="true" signature="699:763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Builder/MageBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <marker date="1536161363149" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536161363149" expanded="true" signature="124:671" ph="{...}" />
+            <marker date="1536161363149" expanded="true" signature="183:220" ph="{...}" />
+            <marker date="1536161363149" expanded="true" signature="256:466" ph="{...}" />
+            <marker date="1536161363149" expanded="true" signature="522:568" ph="{...}" />
+            <marker date="1536161363149" expanded="true" signature="623:669" ph="{...}" />
           </folding>
         </state>
       </provider>
