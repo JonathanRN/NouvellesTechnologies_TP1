@@ -18,6 +18,12 @@ public class CharacterInfo : MonoBehaviour
 	private Classes characterClass;
 	private Races characterRace;
 
+	private void Awake()
+	{
+		buildButton.onClick.AddListener(delegate { OnButtonBuildClick(); });
+		characterBuildDirector = new CharacterBuildDirector(this);
+	}
+	
 	public string GetName()
 	{
 		return name.text;
@@ -31,12 +37,6 @@ public class CharacterInfo : MonoBehaviour
 	public Races GetRace()
 	{
 		return Enum.TryParse(raceText.text, out characterRace) ? characterRace : Races.None;
-	}
-	
-	private void Awake()
-	{
-		buildButton.onClick.AddListener(delegate { OnButtonBuildClick(); });
-		characterBuildDirector = new CharacterBuildDirector(this);
 	}
 
 	private void OnButtonBuildClick()
