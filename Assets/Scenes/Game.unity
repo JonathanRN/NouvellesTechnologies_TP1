@@ -1440,7 +1440,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
+    - target: {fileID: 212743954387398310, guid: b1e963a928a13a14eb9335c49100dfc3,
         type: 2}
       propertyPath: m_Color.r
       value: 1
