@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HunterBuilder : CharacterBuilder {
-
+public class HunterBuilder : CharacterBuilder 
+{
 	private Character character;
     
 	public HunterBuilder()
