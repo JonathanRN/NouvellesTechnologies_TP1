@@ -1442,8 +1442,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 212743954387398310, guid: b1e963a928a13a14eb9335c49100dfc3,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: 33
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1e963a928a13a14eb9335c49100dfc3, type: 2}
@@ -1741,6 +1751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201909388}
   - component: {fileID: 1201909387}
+  - component: {fileID: 1201909389}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -1776,6 +1787,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1201909389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201909386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae70355aacc2d7542a9706e554b35393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1554312315}
 --- !u!1 &1220668984
 GameObject:
   m_ObjectHideFlags: 0

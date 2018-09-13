@@ -20,16 +20,24 @@
           </e>
           <e p="Character" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="CharacterController.cs" t="Include" />
             <e p="Classes.cs" t="Include" />
             <e p="Races.cs" t="Include" />
           </e>
           <e p="CharacterInfo.cs" t="Include" />
           <e p="Gear" t="Include">
-            <e p="Armor.cs" t="Include" />
-            <e p="ArmorType.cs" t="Include" />
-            <e p="Weapon.cs" t="Include" />
-            <e p="WeaponType.cs" t="Include" />
+            <e p="Armor" t="Include">
+              <e p="Armor.cs" t="Include" />
+              <e p="ArmorController.cs" t="Include" />
+              <e p="ArmorType.cs" t="Include" />
+            </e>
+            <e p="Weapon" t="Include">
+              <e p="Weapon.cs" t="Include" />
+              <e p="WeaponController.cs" t="Include" />
+              <e p="WeaponType.cs" t="Include" />
+            </e>
           </e>
+          <e p="Title.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
