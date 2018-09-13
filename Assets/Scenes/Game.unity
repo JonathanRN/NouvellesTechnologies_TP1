@@ -230,22 +230,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 44711238}
   m_CullTransparentMesh: 0
---- !u!1 &126354955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1976995067448230, guid: b1e963a928a13a14eb9335c49100dfc3,
-    type: 2}
-  m_PrefabInternal: {fileID: 993664919}
---- !u!114 &126354956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 126354955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b96f90c014b2b3f4ea33bc19056c3e05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &136843566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,38 +1442,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
-        type: 2}
       propertyPath: m_Color.r
-      value: 0.28084075
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
         type: 2}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.33962262
-      objectReference: {fileID: 0}
-    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 016b067c422b5db4aaba68807765607c,
-        type: 3}
-    - target: {fileID: 212903621528118048, guid: b1e963a928a13a14eb9335c49100dfc3,
-        type: 2}
-      propertyPath: m_Color.a
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1976995067448230, guid: b1e963a928a13a14eb9335c49100dfc3, type: 2}
-      propertyPath: m_TagString
-      value: Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1e963a928a13a14eb9335c49100dfc3, type: 2}
@@ -1787,6 +1751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201909388}
   - component: {fileID: 1201909387}
+  - component: {fileID: 1201909389}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -1822,6 +1787,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1201909389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201909386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae70355aacc2d7542a9706e554b35393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1554312315}
 --- !u!1 &1220668984
 GameObject:
   m_ObjectHideFlags: 0

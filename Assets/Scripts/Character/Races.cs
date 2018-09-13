@@ -12,10 +12,10 @@ public enum Races   {
 
 public static class RaceColor
 {
-	public static Color None = new Color(255, 255, 255);
-	public static Color Orc = new Color(1, 108, 0);
-	public static Color Human = new Color(255, 207, 165);
-	public static Color Gnome = new Color(255, 207, 165);
-	public static Color Elf = new Color(72, 0, 87);
-	public static Color Undead = new Color(193, 193, 193);
+	public static Color None = new Color(255/255.0f, 255/255.0f, 255/255.0f);
+	public static Color Orc = new Color(1/255.0f, 108/255.0f, 0/255.0f);
+	public static Color Human = new Color(255/255.0f, 207/255.0f, 165/255.0f);
+	public static Color Gnome = new Color(255/255.0f, 207/255.0f, 165/255.0f);
+	public static Color Elf = new Color(72/255.0f, 0/255.0f, 87/255.0f);
+	public static Color Undead = new Color(193/255.0f, 193/255.0f, 193/255.0f);
 }
