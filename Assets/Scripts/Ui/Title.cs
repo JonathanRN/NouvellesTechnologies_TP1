@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,8 +27,7 @@ public class Title : MonoBehaviour
 
 	private void OnBuild()
 	{
-		string title = text.text;
-
-		text.text = characterInfo.GetName() + ", the " + characterInfo.GetRace() + " " + characterInfo.GetClass();
+		text.text = String.Format("{0}, The {1} {2}", characterInfo.GetName(), characterInfo.GetRace(),
+			characterInfo.GetClass());
 	}
 }
