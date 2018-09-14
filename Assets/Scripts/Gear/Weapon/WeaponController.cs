@@ -6,13 +6,11 @@ public class WeaponController : MonoBehaviour
 {
 	[SerializeField] private string spritesPath = "Sprites/" ;
 	
-	private Weapon weapon;
 	private SpriteRenderer weaponRenderer;
 	private Sprite weaponSprite;
 	private CharacterInfo characterInfo;
 	
-	// Use this for initialization
-	void Awake ()
+	private void Awake ()
 	{
 		weaponRenderer = transform.parent.GetComponentInChildren<SpriteRenderer>();
 		characterInfo = GameObject.FindWithTag("GameController").GetComponent<CharacterInfo>();
@@ -30,7 +28,6 @@ public class WeaponController : MonoBehaviour
 
 	private void OnBuild()
 	{
-		weapon = characterInfo.Character.Weapon;
 		weaponSprite = Resources.Load<Sprite>(spritesPath + characterInfo.Character.Weapon.WeaponType);
 		weaponRenderer.sprite = weaponSprite;
 	}
