@@ -1,17 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Title : MonoBehaviour
+public class WeaponStats : MonoBehaviour
 {
-	[SerializeField] private Text text;
+	private Text text;
 
 	private CharacterInfo characterInfo;
 
 	private void Awake()
 	{
 		characterInfo = GameObject.FindWithTag("GameController").GetComponent<CharacterInfo>();
+		text = GetComponent<Text>();
 	}
 
 	private void OnEnable()
@@ -26,8 +28,12 @@ public class Title : MonoBehaviour
 
 	private void OnBuild()
 	{
-		string title = text.text;
-
-		text.text = characterInfo.GetName() + ", the " + characterInfo.GetRace() + " " + characterInfo.GetClass();
+		var weapon = characterInfo.Character.Weapon;
+		
+		text.text = String.Format("Name: {0}\nType: {1}\nDamage: {2}\nDurability: {3}",
+			weapon.Name,
+			weapon.WeaponType.ToString(),
+			weapon.Damage.ToString(),
+			weapon.Durability.ToString());
 	}
 }

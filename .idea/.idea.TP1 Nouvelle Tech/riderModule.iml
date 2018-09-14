@@ -2,7 +2,6 @@
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file:///app" />
-    <content url="file:///b71a2f54" />
     <content url="file://$APPLICATION_CONFIG_DIR$/extensions" />
     <content url="file://$USER_HOME$/.Rider2018.2/system/extResources" />
     <content url="file://$MODULE_DIR$/../.." />

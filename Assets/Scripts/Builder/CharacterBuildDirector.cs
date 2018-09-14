@@ -19,5 +19,4 @@ public class CharacterBuildDirector  {
 					  .SetRace(characterInfo.GetRace())
 					  .Build();
 	}
-
 }
